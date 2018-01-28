@@ -117,6 +117,13 @@
     <ClInclude Include="AxleDefines.h" />
     <ClInclude Include="BuildSettings.h" />
     <ClInclude Include="AxleResponse.h" />
+    <ClInclude Include="AxleLogger.h" />
+    <ClInclude Include="AxleServer.h" />
+    <ClInclude Include="AxleScheduler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Axle.cpp" />
+    <ClCompile Include="AxleScheduler.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -27,6 +27,7 @@
 #include <iostream>
 #include <sstream>
 #include <shared_mutex>
+#include <cassert>
 
 #ifdef AXLE_USE_BOOST
 #	ifdef AXLE_MTTHREAD
